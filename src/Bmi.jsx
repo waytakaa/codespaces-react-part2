@@ -18,6 +18,6 @@ export default function Bmi(){
     return (<>Weight:<input ref={W_input}/> kg.<br/>height:<input ref={H_input}/> cm.<br/>
     <button onClick={handleClick}>claculate</button><br/>
     BMI:{bmi.toFixed(2)}
-    <BmiText bmi={Bmi}/>
+    <BmiText bmi={bmi}/>
     </>);
 }
